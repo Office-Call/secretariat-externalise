@@ -30,7 +30,7 @@ get_header();
         ['tools', 'Artisans et BTP', 'Vous êtes sur le chantier, nous prenons les demandes de devis.', se_lien('metiers/artisans-btp')],
         ['scale', 'Professions juridiques', 'Filtrage discret, messages précis, rendez-vous fixés.', se_lien('metiers/professions-juridiques')],
         ['calc', 'Expertise comptable', 'Un renfort pendant les périodes fiscales.', se_lien('metiers/expertise-comptable')],
-        ['home', 'Immobilier', 'Aucun appel sur une annonce sans réponse.', se_lien('metiers/immobilier')],
+        ['home', 'Immobilier', 'Les appels sur vos annonces pris pendant vos visites.', se_lien('metiers/immobilier')],
         ['heart', 'Services à la personne', 'Familles et intervenants bien orientés.', se_lien('metiers/services-a-la-personne')],
     ], false, 'cards-5'); ?>
     <p class="center note-metier">Votre métier n’est pas dans la liste ? Nous accompagnons aussi d’autres TPE et PME : <a href="<?php echo se_lien('contact'); ?>">décrivez-nous votre activité</a>.</p>

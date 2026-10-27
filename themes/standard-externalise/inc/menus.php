@@ -29,7 +29,7 @@ function se_menu_par_defaut()
         ['titre' => 'Pourquoi nous ?', 'url' => '', 'enfants' => [
             ['titre' => 'Notre équipe', 'url' => $u('a-propos')],
             ['titre' => 'Notre méthode', 'url' => $u('comment-ca-fonctionne')],
-            ['titre' => 'Témoignages et cas clients', 'url' => $u('temoignages')],
+            ['titre' => 'Avis clients', 'url' => $u('temoignages')],
             ['titre' => 'Nos outils', 'url' => $u('nos-outils')],
             ['titre' => 'Guides et conseils', 'url' => $u('guides')],
         ]],

@@ -56,7 +56,7 @@ get_header();
   <div class="wrap">
     <div class="section-head center">
       <p class="kicker">Nos solutions</p>
-      <h2>Des services sur mesure <br class="br-desk">pour <em>ne manquer aucun appel</em></h2>
+      <h2>Des services sur mesure <br class="br-desk">pour <em>prendre vos appels quand vous ne pouvez pas</em></h2>
       <p>Une permanence téléphonique professionnelle et humaine, adaptée à vos besoins et à votre activité.</p>
     </div>
     <div class="cards">

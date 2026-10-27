@@ -4,7 +4,7 @@ if (!defined('ABSPATH')) { exit; }
 
 se_seo(
     'Contact : parlons de votre standard téléphonique',
-    'Contactez Standard Externalisé par téléphone, par e-mail ou via notre formulaire. Une équipe basée à Dax, joignable du lundi au vendredi de 8h à 19h.',
+    'Contactez Standard Externalisé par téléphone, par e-mail ou via notre formulaire. Une équipe en France, joignable du lundi au vendredi de 8h à 19h.',
     '',
     'accueil-telephone.webp'
 );
@@ -55,7 +55,7 @@ $mail = get_theme_mod('se_email');
     <div class="contact-side">
       <img src="<?php echo se_img('conseillere-equipe.webp'); ?>" alt="Conseillère de l’équipe Standard Externalisé" width="1100" height="825" loading="lazy">
       <ul class="liste-coches">
-        <li><?php echo se_icon('check', ''); ?>Une équipe basée à Dax, en France</li>
+        <li><?php echo se_icon('check', ''); ?>Une équipe en France, siège à Dax</li>
         <li><?php echo se_icon('check', ''); ?>Une réponse sous 24 heures ouvrées</li>
         <li><?php echo se_icon('check', ''); ?>Un accompagnement personnalisé</li>
       </ul>

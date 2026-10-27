@@ -1,6 +1,6 @@
 <?php
 /**
- * Page « Témoignages et cas clients » (adresse : /temoignages/).
+ * Page « Avis clients et exemples d’usages » (adresse : /temoignages/).
  * Avis : sélection d'avis Google d'OFFICE & CALL (inc/avis.php), ou ceux saisis dans le Customizer.
  */
 if (!defined('ABSPATH')) { exit; }
@@ -16,7 +16,7 @@ get_header();
 <main id="contenu">
 
 <?php se_hero([
-    'kicker'  => 'Témoignages et cas clients',
+    'kicker'  => 'Avis clients et exemples d’usages',
     'titre'   => 'Ils nous font <em>confiance</em>',
     'texte'   => 'Artisans, professions libérales, agences : découvrez comment notre standard téléphonique externalisé s’adapte à leur activité, et ce qu’en disent nos clients.',
     'bouton2' => ['Demander une étude sur mesure', se_lien('etude-sur-mesure')],
@@ -47,8 +47,8 @@ get_header();
     <?php se_cartes([
         ['headset', 'Un accueil humain et professionnel', 'Des conseillères salariées, formées, qui représentent votre entreprise avec soin.'],
         ['gear', 'Un service sur mesure', 'Des consignes écrites pour votre métier, vos horaires et vos priorités.'],
-        ['chart', 'Un prix lisible', 'Des tarifs publiés, et seuls les appels traités sont facturés.'],
-        ['heart', 'Une relation suivie', 'Une petite équipe, et une gérante qui suit chaque client.'],
+        ['chart', 'Un prix lisible', 'Un prix par appel traité, détaillé ligne par ligne dans le devis.'],
+        ['heart', 'Une relation suivie', 'Une petite équipe, et une dirigeante qui suit chaque client.'],
     ]); ?>
   </div>
 </section>

@@ -79,7 +79,7 @@ get_header();
     ['Combien de temps faut-il pour mettre en place le service ?', 'Cela dépend surtout de vos consignes : un simple accueil avec prise de message se prépare plus vite qu’une prise de rendez-vous avec des règles détaillées. Nous fixons la date ensemble lors du premier échange.'],
     ['Quelles informations devez-vous me demander ?', 'Votre activité, vos horaires, les questions fréquentes de vos clients, ce qui est urgent, et à qui transmettre les messages.'],
     ['Puis-je modifier mes consignes après le lancement ?', 'Oui, à tout moment, par e-mail ou par téléphone.'],
-    ['Comment sont formées les conseillères ?', 'Elles sont salariées et formées par la gérante, qui exerce ce métier depuis 2008. Elles prennent connaissance de vos consignes avant la mise en service.'],
+    ['Comment sont formées les conseillères ?', 'Elles sont salariées et formées par la dirigeante, qui exerce ce métier depuis 2008. Elles prennent connaissance de vos consignes avant la mise en service.'],
     ['Dois-je changer de numéro ou de logiciel ?', 'Non. Un simple renvoi d’appel depuis votre ligne suffit, et nous travaillons dans vos outils quand c’est nécessaire.'],
 ], 'Vous vous posez des questions sur la mise en place de notre service ? Voici les réponses aux plus fréquentes.'); ?>
 

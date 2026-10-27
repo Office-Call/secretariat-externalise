@@ -1,5 +1,5 @@
 <?php if (!defined('ABSPATH')) { exit; }
-$texte = get_theme_mod('se_pied_texte') ?: 'Une permanence téléphonique haut de gamme, humaine et sur mesure, pour ne manquer aucun appel et renforcer votre image professionnelle.';
+$texte = get_theme_mod('se_pied_texte') ?: 'Une permanence téléphonique haut de gamme, humaine et sur mesure, qui prend vos appels pendant que vous travaillez et renforce votre image professionnelle.';
 $tel = get_theme_mod('se_telephone');
 $mail = get_theme_mod('se_email');
 $li = get_theme_mod('se_linkedin');

@@ -1,4 +1,14 @@
-THÈME WORDPRESS — STANDARD EXTERNALISÉ (v1.6.0)
+THÈME WORDPRESS — STANDARD EXTERNALISÉ (v1.6.2)
+
+NOUVEAUTÉS DE LA 1.6.2 (27 octobre 2026, suite à l'audit du site)
+- Promesses absolues retirées (« ne manquer aucun appel », « aucun appel sans réponse »).
+- L'équipe est présentée « en France, siège à Dax » au lieu de « basée à Dax ».
+- « Gérante » remplacé par « dirigeante » (OFFICE & CALL est une SAS : le titre légal est Président(e)).
+- La page /temoignages/ s'appelle « Avis clients » dans le menu ; plus d'annonce de « cas clients » qui n'existent pas encore.
+- La page Guides est en noindex tant qu'aucun article n'est publié.
+- ATTENTION : si /temoignages/ affiche « Nos conseils pour un accueil téléphonique plus efficace »,
+  c'est que la page Témoignages est choisie comme « Page des articles » dans Réglages › Lecture.
+  Mettre la page « Guides et conseils » à la place.
 
 NOUVEAUTÉS DE LA 1.6 (octobre 2026)
 - Plus de simulateur ni de prix calculés : la page /devis/ est un formulaire de demande de devis

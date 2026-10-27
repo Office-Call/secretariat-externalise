@@ -67,7 +67,7 @@ get_header();
 </section>
 
 <?php se_faq([
-    ['Qui répond à mes appels ?', 'Des conseillères salariées, basées à Dax, formées à vos consignes. Ce sont toujours les mêmes voix.'],
+    ['Qui répond à mes appels ?', 'Des conseillères salariées en France, formées à vos consignes. Ce sont toujours les mêmes voix.'],
     ['Quels sont les horaires de la permanence ?', 'Du lundi au vendredi, de 8h à 19h, sans coupure le midi. En dehors de ces horaires, vos appels suivent la solution que vous avez prévue, par exemple votre messagerie.'],
     ['Puis-je personnaliser la formule d’accueil ?', 'Oui. La conseillère répond avec la formule que vous choisissez, au nom de votre entreprise.'],
     ['Comment me sont transmis les messages ?', 'Par e-mail dès la fin de l’appel, et par SMS en option.'],

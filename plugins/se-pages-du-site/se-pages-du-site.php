@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Pages du site — Standard Externalisé
  * Description: Crée ou met à jour en un clic les pages de standard-externalise.fr (textes rédigés, bonnes adresses, bons modèles). Outils › Pages du site. À supprimer une fois les pages créées.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: OFFICE & CALL
  */
 

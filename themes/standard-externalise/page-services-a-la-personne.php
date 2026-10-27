@@ -50,7 +50,7 @@ se_page_metier([
     'liens' => [
         ['Permanence téléphonique', 'Tous vos appels pris, du lundi au vendredi de 8h à 19h.', se_lien('permanence-telephonique'), 'headset'],
         ['Étude sur mesure', 'Pour un réseau de plusieurs agences.', se_lien('etude-sur-mesure'), 'nodes'],
-        ['Témoignages et cas clients', 'Ce qu’en disent nos clients.', se_lien('temoignages'), 'star'],
+        ['Avis clients', 'Ce qu’en disent nos clients.', se_lien('temoignages'), 'star'],
         ['Demander un devis', 'Votre proposition chiffrée sous 24 heures ouvrées.', se_lien('devis'), 'doc'],
     ],
     'faq' => [

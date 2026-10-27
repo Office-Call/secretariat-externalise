@@ -293,14 +293,14 @@ function sep_pages()
     [
         'slug' => 'a-propos',
         'titre' => 'Notre équipe',
-        'extrait' => 'Une petite équipe de conseillères salariées, basée à Dax, qui connaît vos clients.',
+        'extrait' => 'Une petite équipe de conseillères salariées en France, qui connaît vos clients.',
         'ordre' => 20,
         'contenu' =>
             $B::p('Standard Externalisé est le service d’accueil téléphonique d’OFFICE &amp; CALL, une société basée à Dax, dans les Landes. Nous accompagnons aujourd’hui plus de 50 entreprises et traitons environ 5 200 appels chaque mois.')
           . $B::h2('Une petite équipe, pas un plateau')
           . $B::ul([
                 '<strong>Des conseillères salariées</strong>, pas des intérimaires : elles connaissent vos consignes et vos habitudes.',
-                '<strong>Formées par la gérante</strong>, qui exerce ce métier depuis 2008.',
+                '<strong>Formées par la dirigeante</strong>, qui exerce ce métier depuis 2008.',
                 '<strong>Les mêmes voix au bout du fil</strong> : vos clients ne parlent pas à un centre d’appels anonyme.',
             ])
           . $B::h2('Une expérience depuis 2008')
@@ -309,7 +309,7 @@ function sep_pages()
           . $B::ul([
                 'Vos consignes tenues à jour, dès que vous nous signalez un changement.',
                 'La protection de vos données, encadrée par une annexe dédiée dans notre contrat.',
-                'Une interlocutrice identifiée : la gérante de la société.',
+                'Une interlocutrice identifiée : la dirigeante de la société.',
             ])
           . $cta,
     ],
@@ -344,7 +344,7 @@ function sep_pages()
 
     [
         'slug' => 'temoignages',
-        'titre' => 'Témoignages et cas clients',
+        'titre' => 'Avis clients',
         'extrait' => 'Ce qu’en disent les entreprises qui nous confient leurs appels.',
         'ordre' => 22,
         'contenu' =>

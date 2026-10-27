@@ -7,7 +7,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('SE_THEME_VERSION', '1.6.1');
+define('SE_THEME_VERSION', '1.6.2');
 
 require get_template_directory() . '/inc/menus.php';
 require get_template_directory() . '/inc/composants.php';
@@ -231,7 +231,9 @@ function se_seo($titre, $description, $service = '', $image = '')
 /** Pages exclues des moteurs (obligatoires mais sans intérêt pour le référencement). */
 function se_page_noindex()
 {
-    return is_page(['mentions-legales', 'politique-de-confidentialite', 'cgv']) || is_search() || is_404();
+    // La page Guides reste hors des moteurs tant qu'aucun article n'est publié (page vide = contenu trop mince).
+    return is_page(['mentions-legales', 'politique-de-confidentialite', 'cgv']) || is_search() || is_404()
+        || (is_home() && !have_posts());
 }
 
 /** Fil d'Ariane de la page courante : [[nom, url], …], d'après les pages parentes de WordPress. */
