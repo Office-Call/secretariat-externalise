@@ -1,0 +1,20 @@
+FORMULAIRES — STANDARD EXTERNALISÉ (v1.0.0)
+
+Remplace l'extension « Simulateur de devis ». Plus aucun prix n'est calculé ni affiché sur le site :
+le visiteur décrit son besoin, et c'est vous qui établissez le devis avec votre tarificateur interne.
+
+INSTALLATION, DANS CET ORDRE
+1. Extensions › Ajouter › Téléverser : se-formulaires.zip, puis Activer.
+2. Réglages › Formulaires : vérifier l'adresse e-mail qui reçoit les demandes.
+3. Désactiver puis supprimer l'extension « Simulateur de devis — Standard Externalisé ».
+   (Tant qu'elle est active, un bandeau orange le rappelle dans l'administration.)
+4. Installer le thème version 1.6 (Apparence › Thèmes › Téléverser › Remplacer l'existant).
+5. Faire un envoi d'essai depuis la page Devis, la page Étude sur mesure et la page Contact.
+
+CODES COURTS (déjà intégrés aux pages du thème)
+[sesim_contact type="devis"]   Demande de devis : activité, volume d'appels, horaires, attendu pendant l'appel.
+[sesim_contact type="etude"]   Étude sur mesure : volume, sites, outils, description du besoin.
+[sesim_contact]                Contact simple.
+
+Protection anti-robots : champ piège, délai minimal de 4 secondes, 5 envois par heure et par adresse IP.
+Chaque demandeur reçoit un accusé de réception en texte simple, sans aucun prix.

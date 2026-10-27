@@ -1,0 +1,14 @@
+PAGES DU SITE — STANDARD EXTERNALISÉ
+
+1. Faire une sauvegarde du site (Ionos).
+2. Extensions › Ajouter › Téléverser : se-pages-du-site.zip, puis Activer.
+3. Outils › Pages du site : vérifier les pages cochées, puis « Créer / mettre à jour les pages cochées ».
+   - Les pages existantes (même adresse) sont mises à jour ; l'ancienne version reste dans les Révisions.
+   - Les pages « à compléter » (mentions légales, confidentialité, CGV, témoignages) sont décochées
+     par défaut et toujours créées en brouillon : complétez les [crochets] avant de les publier.
+4. Une fois les pages créées : désactiver puis supprimer cette extension (elle ne sert plus).
+
+Certaines pages utilisent des codes fournis par :
+- l'extension « Simulateur de devis » (v1.1) : [simulateur_devis], [sesim_tableau], [sesim_prix], [sesim_contact] ;
+- le thème « Standard Externalisé » (v1.1) : [se_tel], [se_email], [se_temoignages], [se_plan_du_site].
+Installez ces deux mises à jour pour que tout s'affiche.

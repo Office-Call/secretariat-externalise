@@ -1,0 +1,10 @@
+/* Aperçu dans l'éditeur WordPress : mêmes polices et couleurs que le site */
+@font-face{font-family:"Montserrat";src:url(../fonts/montserrat-latin-400-normal.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Montserrat";src:url(../fonts/montserrat-latin-700-normal.woff2) format("woff2");font-weight:700}
+@font-face{font-family:"Playfair Display";src:url(../fonts/playfair-display-latin-600-normal.woff2) format("woff2");font-weight:600}
+body{font-family:"Montserrat",Arial,sans-serif;font-size:17px;line-height:1.75;color:#1A0B16}
+h1,h2{font-family:"Playfair Display",Georgia,serif;font-weight:600;color:#1A0B16}
+h3,h4{font-family:"Montserrat",Arial,sans-serif;font-weight:700}
+a{color:#D9266A}
+.wp-block-button__link{border-radius:999px;background:#D9266A;color:#fff;font-weight:700}
+blockquote,.wp-block-quote{background:#FBEDF0;border:0;border-radius:22px;padding:24px 28px;font-family:"Playfair Display",Georgia,serif}

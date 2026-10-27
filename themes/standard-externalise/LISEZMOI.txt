@@ -1,0 +1,48 @@
+THÈME WORDPRESS — STANDARD EXTERNALISÉ (v1.6.0)
+
+NOUVEAUTÉS DE LA 1.6 (octobre 2026)
+- Plus de simulateur ni de prix calculés : la page /devis/ est un formulaire de demande de devis
+  (extension « Formulaires — Standard Externalisé », à installer à la place du « Simulateur de devis »).
+- Page Tarifs sans grille de prix : facteurs du prix, inclus, comparatif avec une secrétaire salariée.
+  Un seul prix « à partir de » peut être affiché : Apparence › Personnaliser › Tarifs affichés (vide = « Sur devis »).
+- Tous les boutons « Estimer mon tarif » deviennent « Demander un devis ».
+- Référencement : fil d'Ariane visible et données BreadcrumbList sur toutes les pages ; texte de fond
+  (environ 300 mots) et bloc « Pour aller plus loin » (maillage interne) sur les pages métiers et services ;
+  image de partage propre à chaque page ; pages légales exclues des moteurs (noindex) ;
+  avec Yoast : le titre et la description du thème servent de repli tant que rien n'est saisi dans Yoast.
+- Dans Réglages › Lecture, VÉRIFIER que « Demander aux moteurs de recherche de ne pas indexer ce site » est DÉCOCHÉE.
+
+
+INSTALLATION (après une sauvegarde complète du site chez Ionos)
+1. Apparence › Thèmes › Ajouter › Téléverser un thème : choisir standard-externalise.zip, puis Installer.
+2. Cliquer sur « Aperçu en direct » pour vérifier le rendu avant d'activer. Activer ensuite.
+3. Réglages › Lecture :
+   - « La page d'accueil affiche » : une page statique, choisir votre page d'accueil
+     (la mise en page de l'accueil s'applique automatiquement, quel que soit son contenu) ;
+   - « Page des articles » : la page Guides et conseils (si vous en publiez) ;
+   - VÉRIFIER que la case « Demander aux moteurs de recherche de ne pas indexer ce site » est DÉCOCHÉE.
+4. Page Devis : sa mise en page est intégrée au thème (formulaire de demande de devis).
+5. Apparence › Personnaliser :
+   - « Coordonnées » : téléphone, e-mail, LinkedIn, texte du pied de page ;
+   - « Témoignages » : jusqu'à 4 vrais avis clients (la section reste masquée tant qu'elle est vide) ;
+   - « Identité du site » : vous pouvez y mettre l'icône du site (sinon le favicon du thème est utilisé).
+6. Menu (facultatif) : tant qu'aucun menu n'est attribué, l'arborescence validée s'affiche.
+   Pour la modifier, Apparence › Menus : créer un menu à deux niveaux, l'attribuer à « Menu principal ».
+   Ce menu alimente à la fois l'en-tête et les colonnes du pied de page.
+
+PAGES
+- Accueil : mise en page dédiée (front-page.php).
+- Pages : bandeau de titre aubergine ; l'« Extrait » de la page sert de phrase d'accroche sous le titre.
+- Articles : liste en cartes et page d'article.
+- Page 404 personnalisée.
+
+ADRESSES DES LIENS
+Le menu par défaut pointe vers ces adresses ; les pages manquantes sont à créer avec exactement ces identifiants (slug) :
+standard-telephonique-externalise, permanence-telephonique, gestion-des-debordements-dappels, prise-de-rendez-vous,
+assistance-administrative, metiers (page parente) puis artisans-btp, professions-juridiques, expertise-comptable,
+immobilier, services-a-la-personne, a-propos, comment-ca-fonctionne, temoignages, nos-outils, guides, tarifs, devis,
+etude-sur-mesure, contact, mentions-legales, cgv, plan-du-site.
+
+PHOTOS
+Les photos de l'accueil sont des visuels d'illustration (assets/img). Pour mettre de vraies photos de l'équipe,
+remplacer conseillere-casque.webp, conseillere-telephone.webp et equipe.webp par des fichiers de mêmes noms.
