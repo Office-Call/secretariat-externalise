@@ -8,7 +8,7 @@ Site WordPress de la marque **Standard Externalisé** (OFFICE & CALL SAS, Dax), 
 |---|---|---|
 | `themes/standard-externalise/` | Thème sur mesure : mises en page de toutes les pages, référencement intégré | 1.6.2 |
 | `plugins/se-formulaires/` | Formulaires de demande de devis, d'étude sur mesure et de contact (envoi par e-mail) | 1.0.0 |
-| `plugins/se-pages-du-site/` | Création / mise à jour en un clic des pages WordPress (Outils › Pages du site) | 1.1.1 |
+| `plugins/se-pages-du-site/` | Création / mise à jour en un clic des pages WordPress (Outils › Pages du site) | 1.1.2 |
 | `docs/seo-pages.md` | Tableau de référencement page par page (titre, description, H1) | — |
 
 ## Installer une mise à jour sur le site

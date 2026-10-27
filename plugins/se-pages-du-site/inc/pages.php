@@ -442,18 +442,33 @@ function sep_pages()
         'slug' => 'mentions-legales',
         'titre' => 'Mentions légales',
         'ordre' => 40,
-        'a_completer' => true,
         'contenu' =>
             $B::h2('Éditeur du site')
-          . $B::p('Le site standard-externalise.fr est édité par <strong>OFFICE &amp; CALL</strong>, société par actions simplifiée (SAS) au capital de 1 500 €, immatriculée au RCS de Dax sous le numéro 892 263 484.<br>Siège social : [adresse complète du siège]<br>Numéro de TVA intracommunautaire : FR95892263484<br>Téléphone : [se_tel]<br>E-mail : [se_email]')
+          . $B::p('Le site standard-externalise.fr présente le service <strong>Standard Externalisé</strong>, marque d’<strong>OFFICE &amp; CALL</strong>.')
+          . $B::ul([
+                '<strong>Dénomination sociale :</strong> OFFICE &amp; CALL',
+                '<strong>Forme juridique :</strong> société par actions simplifiée (SAS)',
+                '<strong>Capital social :</strong> 1 500 €',
+                '<strong>Siège social :</strong> 1 avenue de la Gare, 40100 Dax',
+                '<strong>Immatriculation :</strong> RCS Dax 892 263 484',
+                '<strong>SIRET du siège :</strong> 892 263 484 00016',
+                '<strong>Code APE :</strong> 8220Z — Activités de centres d’appels',
+                '<strong>TVA intracommunautaire :</strong> FR95892263484',
+                '<strong>Téléphone :</strong> [se_tel]',
+                '<strong>E-mail :</strong> [se_email]',
+            ])
           . $B::h2('Directrice de la publication')
-          . $B::p('Catherine Delaistre, représentante légale d’OFFICE &amp; CALL.')
+          . $B::p('Catherine Delaistre, Présidente d’OFFICE &amp; CALL.')
           . $B::h2('Hébergeur')
-          . $B::p('IONOS SARL, 7 place de la Gare, 57200 Sarreguemines (SIREN 431 303 775).<br>Téléphone : [numéro indiqué dans votre contrat Ionos]')
+          . $B::p('IONOS SARL, 7 place de la Gare, BP 70109, 57200 Sarreguemines Cedex — RCS Sarreguemines 431 303 775.<br>Téléphone : 09 70 80 89 11.')
           . $B::h2('Propriété intellectuelle')
-          . $B::p('L’ensemble des contenus de ce site (textes, logo, charte graphique) est la propriété d’OFFICE &amp; CALL, sauf mention contraire. Toute reproduction sans autorisation écrite est interdite.')
-          . $B::h2('Crédits')
-          . $B::p('Photographies : [source ou mention des images utilisées].')
+          . $B::p('L’ensemble des contenus de ce site (textes, logo, charte graphique, mise en page) est la propriété d’OFFICE &amp; CALL, sauf mention contraire. Toute reproduction, totale ou partielle, sans autorisation écrite préalable est interdite.')
+          . $B::h2('Photographies')
+          . $B::p('Les photographies du site sont des visuels d’illustration : elles ne représentent pas les conseillères d’OFFICE &amp; CALL.')
+          . $B::h2('Avis clients')
+          . $B::p('Les avis affichés sont des avis publiés sur Google pour OFFICE &amp; CALL, reproduits sans modification. Ils ne font pas l’objet d’une procédure de vérification de notre part.')
+          . $B::h2('Responsabilité')
+          . $B::p('Les informations publiées sur ce site sont données à titre indicatif et peuvent évoluer. Seuls le devis et les conditions générales de vente acceptés engagent OFFICE &amp; CALL.')
           . $B::h2('Données personnelles')
           . $B::p('Le traitement de vos données est décrit dans notre <a href="@/politique-de-confidentialite/">politique de confidentialité</a>.'),
     ],
@@ -466,7 +481,7 @@ function sep_pages()
         'contenu' =>
             $B::p('Cette page explique quelles données nous collectons sur ce site, pourquoi, et comment exercer vos droits.')
           . $B::h2('Responsable du traitement')
-          . $B::p('OFFICE &amp; CALL SAS, RCS Dax 892 263 484, [adresse du siège]. Contact : [se_email].')
+          . $B::p('OFFICE &amp; CALL SAS, RCS Dax 892 263 484, 1 avenue de la Gare, 40100 Dax, représentée par Catherine Delaistre, Présidente. Contact : [se_email].')
           . $B::h2('Données collectées et finalités')
           . $B::ul([
                 '<strong>Formulaire de demande de devis</strong> : nom, entreprise, e-mail, téléphone, activité, volume d’appels, horaires souhaités et précisions éventuelles. Finalité : établir votre devis et vous recontacter à son sujet.',
